@@ -1,0 +1,16 @@
+{
+  "name": "scrapcity",
+  "version": "1.0.0",
+  "description": "A scrapper from instagram and twitter",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node -r esm app.js"
+  },
+  "author": "Sachin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "esm": "^3.2.25"
+  }
+}
